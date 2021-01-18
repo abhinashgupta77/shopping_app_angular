@@ -1,0 +1,16 @@
+<section class="footer">
+    <div class="total_sec">
+        <span>Qty: {{count}} </span>
+        <span>Total: {{price}} </span>
+    </div>
+    <button class="checkout_btn" [disabled]="price == 0" (click)="checkout()">CHECKOUT</button>
+</section>
+
+<section *ngIf="showModal && price > 0" class="checkout_modal">
+    <div class="body_modal">
+        <span class="total_price">Total: {{price}}</span>
+        <span class="success_mesg">Your Transaction is successfull</span>
+        <span class="success_mesg">Thank you for shopping</span>
+        <span class="close_btn" (click)="closePopup()">X</span>
+    </div>
+</section>

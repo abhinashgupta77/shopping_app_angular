@@ -1,0 +1,15 @@
+.product_container{
+    width: 600px;
+    margin: 0 auto;
+    padding: 30px 0 55px 0;
+}
+.product_container h1{
+    text-align: center;
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 767px){
+    .product_container{
+        width: 100%;
+    }
+}

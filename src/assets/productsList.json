@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "brandname": "Patanjali",
+        "productname": "Patanjali Cow Ghee, 500 ml Carton",
+        "quantity": 10,
+        "MRP": 300,
+        "price": 285,
+        "imageURL": "https://www.bigbasket.com/media/uploads/p/l/40009511_9-patanjali-cow-ghee.jpg",
+        "offertext": "5% OFF"
+    },
+    {
+        "id": 2,
+        "brandname": "Amul",
+        "productname": "Amul Butter - Pasteurised, 100 g Carton",
+        "quantity": 1,
+        "MRP": 48,
+        "price": 46,
+        "imageURL": "https://www.bigbasket.com/media/uploads/p/l/104860_6-amul-butter-pasteurised.jpg",
+        "offertext": "4% OFF"
+    },
+    {
+        "id": 3,
+        "brandname": "Fortune",
+        "productname": "Fortune Sunflower Refined Oil, 1 L Pouch",
+        "quantity": 10,
+        "MRP": 173,
+        "price": 135,
+        "imageURL": "https://www.bigbasket.com/media/uploads/p/l/274145_10-fortune-sunflower-refined-oil.jpg",
+        "offertext": "22% OFF"
+    },
+    {
+        "id": 4,
+        "brandname": "Sunfeast",
+        "productname": "Sunfeast Dark Fantasy Biscuits - Cookies - Choco Fills, 300 g",
+        "quantity": 9,
+        "MRP": 120,
+        "price": 79,
+        "imageURL": "https://www.bigbasket.com/media/uploads/p/l/40077104_2-sunfeast-dark-fantasy-biscuits-cookies-choco-fills.jpg",
+        "offertext": "34% OFF"
+    },
+    {
+        "id": 5,
+        "brandname": "bb Popular",
+        "productname": "bb Popular Moong Dal, 2 kg Pouch",
+        "quantity":4,
+        "MRP": 380,
+        "price": 246,
+        "imageURL": "https://www.bigbasket.com/media/uploads/p/l/40044731_12-bb-popular-moong-dal.jpg",
+        "offertext": "35% OFF"
+    },
+    {
+        "id": 6,
+        "brandname": "Daawat",
+        "productname": "Daawat Basmati Rice - Rozana Gold, 5 kg Pouch",
+        "quantity": 10,
+        "MRP": 445,
+        "price": 392,
+        "imageURL": "https://www.bigbasket.com/media/uploads/p/l/204005_7-daawat-basmati-rice-rozana-gold.jpg",
+        "offertext": "12% OFF"
+    },
+    {
+        "id": 7,
+        "brandname": "Taj Mahal",
+        "productname": "Taj Mahal Tea, 250 g",
+        "quantity": 11,
+        "MRP": 180,
+        "price": 170,
+        "imageURL": "https://www.bigbasket.com/media/uploads/p/l/266551_8-taj-mahal-tea.jpg",
+        "offertext": "10% OFF"
+    },
+    {
+        "id": 8,
+        "brandname": "VAHDAM",
+        "productname": "VAHDAM Kashmiri Kahwa Loose Leaf Green Tea",
+        "quantity": 4,
+        "MRP": 399,
+        "price": 339,
+        "imageURL": "https://www.bigbasket.com/media/uploads/p/l/40193297_2-vahdam-kashmiri-kahwa-loose-leaf-green-tea-50-cups.jpg",
+        "offertext": "15% OFF"
+    },
+    {
+        "id": 9,
+        "brandname": "Red Label",
+        "productname": "Red Label Tea, 250 g Carton",
+        "quantity": 8,
+        "MRP": 135,
+        "price": 115,
+        "imageURL": "https://www.bigbasket.com/media/uploads/p/l/266575_15-red-label-tea.jpg",
+        "offertext": "15% OFF"
+    },
+    {
+        "id": 10,
+        "brandname": "Wagh Bakri",
+        "productname": "Wagh Bakri Leaf Tea, 250 g",
+        "quantity": 6,
+        "MRP": 150,
+        "price": 118,
+        "imageURL": "https://www.bigbasket.com/media/uploads/p/l/40052450_2-wagh-bakri-leaf-tea.jpg",
+        "offertext": "25% OFF"
+    }
+]

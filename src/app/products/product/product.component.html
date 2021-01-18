@@ -1,0 +1,22 @@
+<div class="items" id="{{ product.id }}">
+  <div class="img_sec">
+    <img src="{{ product.imageURL }}" alt="img" />
+    <p>{{ product.offertext }}</p>
+  </div>
+  <div class="details_sec">
+    <span class="brand_name">{{ product.brandname }}</span>
+    <span class="product_name">{{ product.productname }}</span>
+    <span>{{ product.quantity }}</span>
+    <span class="mrp">MRP {{ product.MRP }}</span>
+    <span class="price">Rs {{ product.price }}</span>
+
+    <div class="btn_sec">
+      <span class="add_to_cart" (click)="addProductToCart(product)">Add Cart</span>
+      <div class="btn_block">
+        <button (click)="addProductToCart(product)">+</button>
+        <span class="qty_count">{{ product.count }}</span>
+        <button [disabled]="product.count == 0" (click)="removeProductFromCart(product)">-</button>
+      </div>
+    </div>
+  </div>
+</div>

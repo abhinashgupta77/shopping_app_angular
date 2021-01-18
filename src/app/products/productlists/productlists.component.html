@@ -1,0 +1,5 @@
+<div class="product_container">
+    <h1>Shopping App</h1>
+    <app-product *ngFor="let product of productsList" (productRemoved)="removeProductToCart($event)" (productAdded)="addProductToCart($event)" [product]="product"></app-product>
+    <app-checkoutproduct [count]=count [price]=price ></app-checkoutproduct>
+</div>

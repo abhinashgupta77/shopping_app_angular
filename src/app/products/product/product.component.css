@@ -1,0 +1,89 @@
+.items{
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+}
+.img_sec{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 16px;
+}
+.img_sec img{
+    width: 120px;
+}
+.items .details_sec{
+    width: 70%;
+}
+.items .details_sec > span{
+    display: inline-block;
+    width: 100%;
+    font-size: 18px;
+}
+.items .details_sec span + span{
+    margin-top: 5px;
+}
+.items .details_sec span.brand_name{
+    font-weight: 600;
+    color: #00fa00;
+    font-size: 20px;
+}
+.items .details_sec span.price{
+    font-weight: 600;
+}
+.btn_sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.btn_sec .add_to_cart{
+    padding: 8px 30px;
+    background-color: #00fa00;
+    color: #000000;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn_block{
+    margin-right: 40px;
+}
+.btn_block button{
+    background: #00fa00;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 9px 13px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+.btn_block button:disabled{
+    cursor: not-allowed;
+}
+.btn_block .qty_count{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0 20px;
+}
+
+@media only screen and (max-width: 767px){
+    .items .details_sec{
+        padding: 0 10px;
+    }
+    .btn_block{
+        margin: 10px 0 0 0;
+    }
+    .btn_sec{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
